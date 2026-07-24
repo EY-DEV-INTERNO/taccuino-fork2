@@ -72,6 +72,7 @@ Description: "Codici LOINC dei parametri vitali in italiano"
 * $cs-loinc#4548-4 "Emoglobina A1c/Emoglobina.totale"
 * $cs-loinc#88365-2 "Glucosio^pre-pasto"
 * $cs-loinc#3043-7 "Trigliceridi"
+* $cs-loinc#59261-8  "Hemoglobin A1c/Hemoglobin.total standardized per IFCC-RMP for CDT in Blood"
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ValueSet: VsCND
