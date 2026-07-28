@@ -7,6 +7,8 @@ Description: "Esempio di organizzazione ASL"
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Organization example</div>"
 * id = "3c75bf31-bd32-4c0f-9e4a-585d20c08ce4"
 * identifier[0].system = $cs-asl
 * identifier[0].value = #120201
@@ -22,6 +24,8 @@ Description: "Esempio di Farmacia"
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Organization example</div>"
 * id = "391b39e6-87aa-4b0a-b642-d3c82245eb6d"
 * identifier[0].system = $minsan-farmacie
 * identifier[0].value = #4306
@@ -37,6 +41,8 @@ Description: "Esempio di Struttura di ricovero"
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Organization example</div>"
 * id = "99f2750b-8cbb-4512-a50f-1539e06fd258"
 * identifier[0].system = $cs-minsan-hsp
 * identifier[0].value = #010626

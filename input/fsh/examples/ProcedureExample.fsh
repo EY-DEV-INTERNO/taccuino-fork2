@@ -6,6 +6,8 @@ Description: "Esempio di una procedura di impianto di un defibrillatore cardiaco
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Procedure example</div>"
 * id = "b4bd1cab-efab-4ba1-bf3f-8da5880e5c0e"
 * status = #completed
 * performedDateTime = "2025-02-02"

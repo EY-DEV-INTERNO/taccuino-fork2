@@ -6,6 +6,8 @@ Description: "Esempio di Paziente (donna) iscritta al SSN"
 
 
 * id = "e786443c-4786-4b88-b3e3-41a4b27681d1"
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient example</div>"
 * extension[luogoNascita].valueAddress.line[+].extension[odonimo].valueString = "Via della Pace"
 * extension[luogoNascita].valueAddress.line[=].extension[houseNumber].valueString = "1"
 * extension[luogoNascita].valueAddress.line[=] = "Via della Pace, 1"
@@ -48,6 +50,8 @@ Description: "Esempio di Paziente (uomo) iscritto al SSN"
 
 
 * id = "4ec06b84-071a-4de2-b0eb-e24cda23fbaa"
+* text.status = #generated
+* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient example</div>"
 * extension[luogoNascita].valueAddress.line[+].extension[odonimo].valueString = "Via Santa Cristina"
 * extension[luogoNascita].valueAddress.line[=].extension[houseNumber].valueString = "3"
 * extension[luogoNascita].valueAddress.line[=] = "Via Santa Cristina, 3"
