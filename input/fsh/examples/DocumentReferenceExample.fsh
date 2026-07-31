@@ -73,7 +73,7 @@ Description: "Esempio di documento emesso in seguito all'impianto di un defibril
 * subject = Reference (Patient-Taccuino-Esempio)
 * date = "2025-02-03T09:30:41+11:00"
 * author[0] = Reference (Practitioner-Taccuino-Esempio)
-* author[1] = Reference (Organization-Taccuino-Esempio3)
+* author[1] = Reference (Organization-Taccuino-Esempio)
 * status = #current
 * category = $cs-class-code#TAC 
 * content.attachment.language = #it-IT "Italian (Italy)"

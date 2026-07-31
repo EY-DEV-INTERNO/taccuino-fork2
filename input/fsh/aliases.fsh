@@ -56,6 +56,7 @@ Alias: $anpr = http://hl7.it/sid/anpr
 Alias: $cs-luogo-nascita = https://www.hl7.it/fhir/terminology/CodeSystem/istat-unitaAmministrativeTerritorialiEstere
 Alias: $cs-asl = https://www.hl7.it/fhir/terminology/CodeSystem/cs-asl
 Alias: $vs-asl = http://hl7.it/fhir/taccuino/ValueSet/vs-ASL
+Alias: $cs-regioni = http://hl7.it/fhir/itcore/CodeSystem/cs-minsan-regione
 Alias: $cs-entita = https://www.hl7.it/fhir/terminology/CodeSystem/it-tipoEntita
 Alias: $reason-medication-given = http://terminology.hl7.org/CodeSystem/reason-medication-given
 Alias: $odf = http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm

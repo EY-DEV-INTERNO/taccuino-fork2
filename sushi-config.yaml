@@ -50,6 +50,9 @@ dependencies:
   #hl7.terminology.r4 : 6.3.0
   #hl7.fhir.it.terminology: dev
   hl7.fhir.it.base: 0.1.0
+  hl7.fhir.it.core: 0.2.0
+ 
+
 
 pages:
   index.md:
@@ -127,7 +130,6 @@ groups:
       - StructureDefinition/observation-it-dolore-taccuino
       - StructureDefinition/observation-it-viaggi-taccuino
       - StructureDefinition/observation-it-eventi-taccuino
-      - StructureDefinition/organization-it-Taccuino
       - StructureDefinition/procedure-it-Taccuino
       - StructureDefinition/patient-it-Taccuino
   TaccuinoExtensions:

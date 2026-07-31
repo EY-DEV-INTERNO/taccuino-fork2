@@ -21,6 +21,6 @@ Description: "Esempio di contatto/incontro per un ASL"
 
 * reasonCode = $sct#2134003 "Diffuse pain"
 
-* serviceProvider = Reference(Organization-Taccuino-Esempio2)
+* serviceProvider = Reference(Organization-Taccuino-Esempio)
 
 * subject = Reference(Patient-Taccuino-Esempio)

@@ -27,6 +27,6 @@ Usage: #example
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">PractitionerRole example</div>"
 * id = "7d6735f7-5fb5-44e5-9469-baebe030e59e"
 * practitioner = Reference (Practitioner-Taccuino-Esempio)
-* organization = Reference(Organization-Taccuino-Esempio3)
+* organization = Reference(Organization-Taccuino-Esempio)
 * code = $cs-itroleCode#MSA  "medico specialista ambulatoriale"
 * specialty.coding = $sct#394579002 "Cardiology"

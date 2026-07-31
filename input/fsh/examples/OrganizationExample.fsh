@@ -1,7 +1,7 @@
 
 // //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Instance: Organization-Taccuino-Esempio
-InstanceOf: OrganizationTaccuino
+InstanceOf: OrganizationItCore
 Title: "Organization ASL Roma 1"
 Description: "Esempio di organizzazione ASL"
 
@@ -18,7 +18,7 @@ Description: "Esempio di organizzazione ASL"
 
 // //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Instance: Organization-Taccuino-Esempio2
-InstanceOf: OrganizationTaccuino
+InstanceOf: OrganizationItCore
 Title: "Organization Farmacia"
 Description: "Esempio di Farmacia"
 
@@ -35,7 +35,7 @@ Description: "Esempio di Farmacia"
 
 // //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Instance: Organization-Taccuino-Esempio3
-InstanceOf: OrganizationTaccuino
+InstanceOf: OrganizationItCore
 Title: "Organization: Struttura di ricovero"
 Description: "Esempio di Struttura di ricovero"
 
@@ -45,7 +45,7 @@ Description: "Esempio di Struttura di ricovero"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Organization example</div>"
 * id = "99f2750b-8cbb-4512-a50f-1539e06fd258"
 * identifier[0].system = $cs-minsan-hsp
-* identifier[0].value = #010626
+* identifier[0].value = #010626k
 * active = 	true
 * type = $cs-entita#cc-priv "Casa di cura privata"
 * name = "POLICLINICO DI MONZA SPA - CASA DI CURA"
