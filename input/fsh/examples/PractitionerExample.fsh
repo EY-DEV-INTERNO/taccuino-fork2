@@ -1,5 +1,5 @@
 Instance: Practitioner-Taccuino-Esempio
-InstanceOf: Practitioner
+InstanceOf: PractitionerItcore
 Title: "Practitioner - Medico"
 Description: "Esempio di Practitioner (Medico)"
 
@@ -18,7 +18,7 @@ Description: "Esempio di Practitioner (Medico)"
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instance: Practitioner-Taccuino-Esempio2
-InstanceOf: Practitioner
+InstanceOf: PractitionerItcore
 Title: "Practitioner - Farmacista"
 Description: "Esempio di Practitioner (Farmacista)"
 
@@ -38,14 +38,13 @@ Description: "Esempio di Practitioner (Farmacista)"
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instance: Practitioner-Taccuino-Esempio3
-InstanceOf: Practitioner
+InstanceOf: PractitionerItcore
 Title: "Practitioner -  Medico di Medicina Generale"
 Description: "Esempio di Practitioner (MMG)"
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Practitioner example</div>"
+
 * id = "850d77be-af24-48fa-b4e6-8cab817b3550"
 * identifier[0].system = "http://hl7.it/sid/codiceFiscale"
 * identifier[0].value = "RSSMRA80L10H501Z"
