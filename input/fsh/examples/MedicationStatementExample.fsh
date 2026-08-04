@@ -34,8 +34,7 @@ Usage: #example
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">MedicationStatement example</div>"
+
 * id = "08cea1b4-db13-48fd-8956-a29d25f42b99"
 * status = #active
 

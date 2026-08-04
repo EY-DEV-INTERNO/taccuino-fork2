@@ -5,8 +5,7 @@ Description: "Esempio di Practitioner (Medico)"
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Practitioner example</div>"
+ 
 * id = "05883e67-ad02-4df9-a287-ee0eaa0dc680"
 * identifier[0].system = "http://hl7.it/sid/codiceFiscale"
 * identifier[0].value = "SMNNZE80L45H501O"
@@ -24,8 +23,7 @@ Description: "Esempio di Practitioner (Farmacista)"
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Practitioner example</div>"
+ 
 * id = "2f5cb32d-61ad-4390-96c4-96db21825e15"
 * identifier[0].system = "http://hl7.it/sid/codiceFiscale"
 * identifier[0].value = "RSSMRA80L10H501Z"

@@ -6,8 +6,7 @@ Description: "Esempio di contatto/incontro per un ASL"
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Encounter example</div>"
+
 * id = "c83ef1b2-d8ad-4de8-9dfe-7b7dd897d632"
 * extension[dataRegistrazione].valueInstant = "2024-03-01T15:30:00+01:00"
 

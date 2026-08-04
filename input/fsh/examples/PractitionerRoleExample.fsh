@@ -6,8 +6,7 @@ Usage: #example
 
 * meta.tag.system = $cs-class-code
 * meta.tag.code = #TAC
-* text.status = #generated
-* text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">PractitionerRole example</div>"
+
 * id = "c95f6e06-d3f9-46d4-bcd4-deb87cc295e1"
 * practitioner = Reference (Practitioner-Taccuino-Esempio3)
 * organization = Reference(Organization-Taccuino-Esempio)
