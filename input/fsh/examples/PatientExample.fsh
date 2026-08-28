@@ -18,7 +18,7 @@ Description: "Esempio di Paziente (donna) iscritta al SSN"
 * extension[titoloStudio].valueCodeableConcept = $cs-titolo-studio-istat#40205013 "Giuridico economico aziendale"
 
 * identifier
-  * system = "http://hl7.it/sid/codiceFiscale"
+  * system = $CF
   * value = "VRDNGL89D43H501J" 
   * extension[certificazioneId].extension[when].valueDateTime = "2024-09-01"
 
@@ -66,7 +66,7 @@ Description: "Esempio di Paziente (uomo) iscritto al SSN"
 * extension[titoloStudio].valueCodeableConcept = $cs-titolo-studio-istat#40202023 "Informatica"
 
 * identifier
-  * system = "http://hl7.it/sid/codiceFiscale"
+  * system = $CF
   * value = "BNCMHL90H12L219K" 
   * extension[certificazioneId].extension[when].valueDateTime = "2024-08-10"
 

@@ -14,7 +14,7 @@ Description: "Esempio di contatto/incontro per un ASL"
 * period.start = "2024-02-01"
 * period.end = "2024-02-01"
 
-* status = http://hl7.org/fhir/encounter-status#in-progress
+* status = $cs-encounterstatus#in-progress
 
 * participant.individual = Reference(Practitioner-Taccuino-Esempio)
 

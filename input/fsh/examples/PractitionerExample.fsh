@@ -13,7 +13,7 @@ Description: "Esempio di Practitioner (Medico)"
 * name.given = "Enza"
 * gender = #female
 * birthDate = "1980-07-05"
-* qualification.code = https://www.hl7.it/fhir/terminology/CodeSystem/istat-professioni#2.4.1 "Medici"
+* qualification.code = $cs-professioni-istat#2.4.1
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------------------
 Instance: Practitioner-Taccuino-Esempio2
@@ -31,7 +31,7 @@ Description: "Esempio di Practitioner (Farmacista)"
 * name.given = "Mario"
 * gender = #male
 * birthDate = "1980-07-10"
-* qualification.code = https://www.hl7.it/fhir/terminology/CodeSystem/istat-professioni#2.3.1.5 "Farmacisti"
+* qualification.code = $cs-professioni-istat#2.3.1.5
 
 
 // ------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -50,6 +50,6 @@ Description: "Esempio di Practitioner (MMG)"
 * name.given = "Pasquale"
 * gender = #male
 * birthDate = "1980-07-10"
-* qualification.code = https://www.hl7.it/fhir/terminology/CodeSystem/istat-professioni#2.4.1 "Medici"
+* qualification.code = $cs-professioni-istat#2.4.1 "Medici"
 
 
