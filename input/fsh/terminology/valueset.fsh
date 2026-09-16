@@ -5,7 +5,7 @@ Title: "AIFA AIC"
 Description: "ValueSet che comprende i codici di Autorizzazione all'Immissione in Commercio (AIC) definiti da AIFA. Poiché il sistema di codifica è gestito da AIFA, l'elenco completo dei codici deve essere reperito tramite le fonti ufficiali di AIFA"
 * ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
+//* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
 
 * codes from system $cs-aifa-AIC
 * codes from system $aic
@@ -17,7 +17,7 @@ Title: "No Allergies"
 Description: "Nessuna allergia oppure agente non noto"
 * ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.5.1150.1"
+//* ^identifier.value = "urn:oid:2.16.840.1.113883.5.1150.1"
 * codes from system $cs-no-allergies
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -30,12 +30,12 @@ Description: "Nessuna allergia oppure agente non noto"
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-ValueSet: VsASL
-Id: vs-ASL
-Title: "MDS - ASL"
-Description: "Valuset che raccoglie i codici per le Aziende Sanitarie Locali"
-* ^experimental = false
-* codes from system $cs-asl
+// ValueSet: VsASL
+// Id: vs-ASL
+// Title: "MDS - ASL"
+// Description: "Valuset che raccoglie i codici per le Aziende Sanitarie Locali"
+// * ^experimental = false
+// * codes from system $cs-asl
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ValueSet: VsAccess
@@ -44,17 +44,17 @@ Title: "Atti clinici e regole di accesso"
 Description: "Atti clinici e regole di accesso"
 * ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.3.3.6.1.3"
+// * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.3.3.6.1.3"
 * codes from system $cs-accessRules
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-ValueSet: VsLoinc
-Id: vs-loinc-it
-Title: "Codici LOINC"
-Description: "Codici LOINC italiano"
-* ^experimental = false
-* codes from system $cs-loinc
+// ValueSet: VsLoinc
+// Id: vs-loinc-it
+// Title: "Codici LOINC"
+// Description: "Codici LOINC italiano"
+// * ^experimental = false
+// * codes from system $cs-loinc
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -86,7 +86,7 @@ Title: "Classificazione Nazionale dei Dispositivi Medici (CND)"
 Description: "Classificazione Nazionale dei Dispositivi Medici (CND)"
 * ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.48"
+//* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.48"
 * codes from system $cs-cnd
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -96,7 +96,7 @@ Title: "Classe documento"
 Description: "Valuset che rappresenta la classe a cui il documento appartiene"
 * ^experimental = false
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.3.3.6.1.5"
+// * ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.3.3.6.1.5"
 * codes from system $cs-class-code
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

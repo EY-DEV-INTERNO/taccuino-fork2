@@ -1,11 +1,13 @@
 CodeSystem: CsAifaAic
 Id: aifa-aic
 Title: "AIFA - AIC"
-Description: "AIFA - Identifica i farmaci nella loro forma commerciale"
+Description: "AIFA - Identifica i farmaci nella loro forma commerciale. Poiché il sistema di codifica è gestito da AIFA, l'elenco completo dei codici deve essere reperito tramite le fonti ufficiali di AIFA"
 * ^experimental = false
 * ^status = #active
 * ^language = #it-IT
 * ^caseSensitive = true
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.5"
 
 * #031981069 "PANTORC - 28CPR GASTR 20MG"
 * #033736075 "AIRCORT NEBUL20FL 2ML 0,5MG/ML"
@@ -25,6 +27,8 @@ Description: "Nessuna allergia oppure agente non noto"
 * ^status = #active
 * ^language = #it-IT
 * ^caseSensitive = true
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.5.1150.1"
 
 * #no-allergy-info "No information about allergies"
 * #no-known-allergies "No known allergies"
@@ -42,6 +46,8 @@ Description: "Atti clinici e regole di accesso"
 * ^status = #active
 * ^language = #it-IT
 * ^caseSensitive = true
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.3.3.6.1.3"
 
 
 * #P97 "Oscuramento al genitore"
@@ -57,6 +63,8 @@ Description: "Classe a cui il documento appartiene"
 * ^status = #active
 * ^language = #it-IT
 * ^caseSensitive = false
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.3.3.6.1.5"
 
 * #TAC "Taccuino"
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -70,6 +78,8 @@ Description: "Codici che classificano il tipo di dispositivo (CND)"
 * ^status = #active
 * ^language = #it-IT
 * ^caseSensitive = true
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:2.16.840.1.113883.2.9.6.1.48"
 
 * #J010501 "Defibrillatori Impiantabili Sottocutanei"
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
